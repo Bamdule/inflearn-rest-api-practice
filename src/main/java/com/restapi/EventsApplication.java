@@ -12,8 +12,4 @@ public class EventsApplication {
         SpringApplication.run(EventsApplication.class, args);
     }
 
-    @Bean
-    public ModelMapper modelMapper(){
-        return new ModelMapper();
-    }
 }
